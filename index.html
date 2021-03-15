@@ -16,6 +16,18 @@
 		}
 		document.write("10! = " + fact);
 	</script>
+	<script type="text/javascript">
+		var num = prompt("Введіть число: ", 2);
+		num = parseInt(num);
+		var p = prompt("Введіть степінь: ", 3);
+		p = parseInt(p);
+		
+		var pow = 1;
+		for (var i = 0; i < p; i++){
+			pow *= num;
+		}
+		document.write("Число " + num + " в степені " + p + "  равно "+ pow);
+	</script>
 	</HEAD>
 	<BODY background="images/bg.jpg">
 		<script type="text/javascript">
