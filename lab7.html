@@ -1,0 +1,15 @@
+<HTML>
+  <HEAD>
+<script type="text/javascript">
+		var num = prompt("Введіть число: ", 0);
+		document.write("Число навпаки: ");
+		
+		num = parseInt(num);
+		for (var div = 1; ; div *= 10){
+			var fig = parseInt(num/div);
+			if(fig == 0)break;
+			document.write(fig%10);
+		}
+	</script>
+	</HEAD>
+</HTML>
