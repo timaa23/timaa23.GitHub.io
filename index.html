@@ -2,6 +2,7 @@
 	<HEAD>
 	  <meta charset="utf-8">
 	  <title>Сайт web-студії "Web-DECO"</title>
+	  <script src ="js/clock1.js"></script>
 <style>
  .shadowtext {
 	text-shadow: 1px 3px 2px while, 0 0 1em red;
@@ -9,6 +10,10 @@
 	font-size: 2em;
  }
 </style>
+<script>
+window.onload = function(){
+setInterval(clockPainting, 1000);}
+</script>
 	</HEAD>
 	<BODY background="images/bg.jpg">
 	<table border="1" align="center" cellpadding="10" width="70%" >
@@ -24,6 +29,8 @@
 		</tr>
 		<tr>
 			<td width="30%" valign="top">
+			<center><canvas id="canvas" height="120" width="120"></canvas></center>
+			<hr>
 			
 			 <font size="4" color="navy"><h2 class="shadowtext">Новини</h2></font>
 				<font size="4">
