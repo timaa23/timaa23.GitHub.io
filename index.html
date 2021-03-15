@@ -9,78 +9,8 @@
 	font-size: 2em;
  }
 </style>
-	<script type="text/javascript">
-		var fact = 1;
-		for (var i = 1; i <= 10; i++){
-			fact *= i;
-		}
-		document.write("10! = " + fact);
-	</script>
-	<script type="text/javascript">
-		var num = prompt("Введіть число: ", 2);
-		num = parseInt(num);
-		var p = prompt("Введіть степінь: ", 3);
-		p = parseInt(p);
-		
-		var pow = 1;
-		for (var i = 0; i < p; i++){
-			pow *= num;
-		}
-		document.write("Число " + num + " в степені " + p + "  равно "+ pow);
-	</script>
-	<script type="text/javascript">
-		var num = prompt("Введіть число: ", 0);
-		document.write("Число навпаки: ");
-		
-		num = parseInt(num);
-		for (var div = 1; ; div *= 10){
-			var fig = parseInt(num/div);
-			if(fig == 0)break;
-			document.write(fig%10);
-		}
-	</script>
 	</HEAD>
 	<BODY background="images/bg.jpg">
-		<script type="text/javascript">
-			var message="Hello World!";
-			alert(message);
-		</script>
-		<script type="text/javascript">
-			var var1 = 10;
-			var var2 = 2;
-			if( var2 != 0){
-			var result=var1/var2;
-			alert("Result: "+result);
-			}
-			else{
-			alert("Division by 0 is not possible");
-			}
-		</script>
-		<script type="text/javascript">
-			var name = prompt("Enter your name: ", "Harold");
-			var pol = prompt("Male/Female [m/f]: ", "m");
-			
-			switch (pol){
-				case "m":
-					alert("HELLO Mr."+name);
-					break;
-				case "f":
-					alert("HELLO Mrs."+name);
-					break;
-				default:
-					alert("???");
-			}
-		</script>
-		<script type="text/javascript">
-			var upperLimit = 20;
-			var counter;
-			var sum = 0;
-			
-			for(counter = 1; counter <= upperLimit; counter++){
-				sum+=counter;
-			}
-			alert ("Sum from 1 to " +upperLimit+" : "+sum);
-			</script>
 	<table border="1" align="center" cellpadding="10" width="70%" >
 		<tr>
 			<td background="images/bg-3.jpg" colspan="2" height="150" align="right" hspace="5">
